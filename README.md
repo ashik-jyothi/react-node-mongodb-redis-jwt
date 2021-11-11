@@ -4,7 +4,8 @@ Login and register page using ReactJS NodeJs MongoDB using JWT
 
 ## Installation
 
-First clone this repo and install dependencies 
+First clone this repo and install dependencies.
+Need mongo and redis running on default port in the host machine for this project to work as expected.
 
 ```bash
 cd backend && npm install && cd ..
