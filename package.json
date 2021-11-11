@@ -1,0 +1,17 @@
+{
+  "name": "accubits_machine_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd frontend && npm start",
+    "server": "cd backend && npm start",
+    "start": "concurrently \"npm run client\" \"npm run server\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
