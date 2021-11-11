@@ -4,13 +4,13 @@ const user_controller = require("../controllers/user.controller");
 
 route.get(
   "/login_list",
-  // auth_middleware.verifyToken,
+  auth_middleware.verifyToken,
   user_controller.GetUserLoginList
 );
 
 route.get(
   "/user_details",
-  // auth_middleware.verifyToken,
+  auth_middleware.verifyToken,
   user_controller.GetUserDetails
 );
 
